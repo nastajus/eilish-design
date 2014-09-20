@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    font-family: Georgia, Verdana, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+
+body {
+    background-color: dodgerblue;
+    margin: 0; /*remove default*/
+}
+
+.main{
+    background-color: goldenrod;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
