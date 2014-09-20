@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <title>Eilish design: Menus, Scrolling images, etc.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
+
+<div class="menuBar">
+    <div class="menuMainOpt" onmouseover="toggle('about')" onmouseout="toggle('about')">
+        <span>about</span>
+        <div class="menuList" id="about">
+            abc def xyz
+            <div class="menuItem"><span>a</span></div>
+            <div class="menuItem"><span>b</span></div>
+            <div class="menuItem"><span>c</span></div>
+        </div>
+    </div>
+    <div class="menuMainOpt">stuff</div>
+    <div class="menuMainOpt">ipsum</div>
+</div>
 <div class="main">
     Words
 </div>

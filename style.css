@@ -1,19 +1,59 @@
-html, body {
-    height: 100%;
-}
-
 html {
     font-family: Georgia, Verdana, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-weight: bold;
+    height: 100%;
 }
 
 body {
     background-color: dodgerblue;
     margin: 0; /*remove default*/
+    font-size: 12pt;
+    height: inherit;
+}
+
+.menuBar {
+    background-color: goldenrod;
+    max-width: 800px;
+    margin: 20pt auto 20pt;
+    padding: 20pt 0;
 }
 
 .main{
     background-color: goldenrod;
+    height: 30%;
     max-width: 800px;
-    height: 100%;
     margin: 0 auto;
+}
+
+.menuMainOpt {
+    display: inline-block;
+    width: 32%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.menuMainOpt > span{
+    background-color: darkorange;
+    padding: 30pt;
+}
+
+.menuList {
+    display: none;
+    background-color: salmon;
+    position: absolute;
+    width: inherit;
+}
+
+/*.menuItem {*/
+    /*width: inherit;*/
+/*}*/
+
+/*.menuList > div > span {*/
+    /*float: inherit;*/
+/*}*/
+
+div > span:hover{
+    background-color: peru;
 }
