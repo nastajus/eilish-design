@@ -12,17 +12,24 @@ body {
 }
 
 .menuBar {
-    background-color: goldenrod;
-    max-width: 800px;
+    max-width: 780px;
     margin: 20pt auto 20pt;
     padding: 20pt 0;
     text-align: center;
 }
 
+.border{
+    background-color: goldenrod;
+    border-width: 10px 10px 10px 10px;
+    -moz-border-image:url("border.png") 10 10 10 10 repeat stretch;
+    -webkit-border-image:url("border.png") 10 10 10 10 repeat stretch;
+    border-image:url("border.png") 30 30 30 30  stretch;
+}
+
 .main{
     background-color: goldenrod;
     height: 30%;
-    max-width: 800px;
+    max-width: 780px;
     margin: 0 auto;
 }
 
@@ -34,7 +41,7 @@ ul {
 
 .menuTop li{
     display: inline-block;
-    width: 190px;
+    width: 180px;
     padding: 5px 0;
     text-align: center;
     vertical-align: middle;
@@ -50,7 +57,7 @@ ul {
 
 .menuSub li{
     display: block;
-    width: 180px;
+    width: 170px;
     padding: 5px;
     background-color: goldenrod;
 }
