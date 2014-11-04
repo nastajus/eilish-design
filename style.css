@@ -23,13 +23,14 @@ body {
     border-width: 10px 10px 10px 10px;
     -moz-border-image:url("border.png") 10 10 10 10 repeat stretch;
     -webkit-border-image:url("border.png") 10 10 10 10 repeat stretch;
-    border-image:url("border.png") 30 30 30 30  stretch;
+    border-image:url("border.png") 30 30 30 30 stretch;
 }
 
 .main{
     background-color: goldenrod;
     height: 30%;
-    max-width: 780px;
+    /*max-width: 780px;*/
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -63,42 +64,15 @@ ul {
 }
 
 li:hover{
-    background-color: peru;
+.    background-color: peru;
 }
 
-/*li:hover {*/
+
+.imgContainer {
     /*background-color: peru;*/
-/*}*/
-
-
-
-
-/*.menuMainOpt {*/
-/*display: inline-block;*/
-/*width: 32%;*/
-/*margin: auto;*/
-/*text-align: center;*/
-/*}*/
-
-
-
-/*.menuMainOpt > span{*/
-/*background-color: darkorange;*/
-/*padding: 30pt;*/
-/*}*/
-
-/*.menuList {*/
-/*display: none;*/
-/*background-color: salmon;*/
-/*position: absolute;*/
-/*width: 256px;*/
-/*margin: 30pt 0 0;*/
-/*}*/
-
-/*.menuItem {*/
-/*width: inherit;*/
-/*}*/
-
-/*.menuList > div > span {*/
-/*float: inherit;*/
-/*}*/
+    height: 100%;
+    background-image: url("c1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
