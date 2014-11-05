@@ -15,14 +15,25 @@ function toggle(id){
 
 function assignImg(id){
     // see the list of all images, assign one
-
-
-    eval(document.getElementById('id').dataset);
-    eval
+    //clearly need to use javascript to apply css dynamically here.
 
     var node = document.getElementById(id)
     document.body.id.appendChild()
 }
+
+
+////http://stackoverflow.com/questions/3437786/get-the-size-of-the-screen-current-web-page-and-browser-window
+//function testShowDim(){
+//    var w = window,
+//        d = document,
+//        e = d.documentElement,
+//        g = d.getElementsByTagName('body')[0],
+//        x = w.innerWidth || e.clientWidth || g.clientWidth,
+//        y = w.innerHeight|| e.clientHeight|| g.clientHeight;
+//    var t = w || d || e;
+//    alert(x + ' × ' + y + ' : ' + t);
+//
+//}
 
 
 function test(id){
