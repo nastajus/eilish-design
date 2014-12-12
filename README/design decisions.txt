@@ -1,0 +1,1 @@
+in part of the code i use pixels directly since dynamically calculating seems difficult with calc() in CSS. i'd like to revisit that premise however.

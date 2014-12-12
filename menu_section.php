@@ -1,40 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Eilish design: Menus, Sliding images, etc.</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-
-
 <div class="menuBar border">
     <ul class="menuTop">
         <li onmouseover="toggle('about')" onmouseout="toggle('about')">
-            about
+    about
             <ul class="menuSub" id="about">
                 <li>aaa</li>
                 <li>bbb</li>
             </ul>
         </li>
         <li onmouseover="toggle('stuff')" onmouseout="toggle('stuff')">
-            stuff
+    stuff
             <ul class="menuSub" id="stuff">
                 <li>ccc</li>
                 <li>ddd</li>
             </ul>
         </li>
         <li onmouseover="toggle('ipsum')" onmouseout="toggle('ipsum')">
-            ipsum
+    ipsum
             <ul class="menuSub" id="ipsum">
                 <li>www</li>
                 <li>zzz</li>
             </ul>
         </li>
         <li>
-            quasi moko of the salem empire
-        </li>
+quasi moko of the salem empire
+</li>
     </ul>
 
     <!--<div class="menuMainOpt" onmouseover="toggle('about')" onmouseout="toggle('about')">-->
@@ -52,27 +41,3 @@
     <!--<div class="menuMainOpt">stuff</div>-->
     <!--<div class="menuMainOpt">ipsum</div>-->
 </div>
-<div class="main border">
-    <div class="imgSlider">
-        <noscript>
-            This site uses JavaScript, please activate.
-            <img src="c3.jpg" alt="This site uses JavaScript, please activate.">
-        </noscript>
-        <!--words here don't matter<br>-->
-        <img class="arrow left" src="arrow-left.png" />
-        <img class="arrow right" src="arrow-right.png" />
-
-        <ul>
-            <li><img src="c3.jpg" /></li>
-            <li><img src="c3.jpg" /></li>
-            <li><img src="c2.jpg" /></li>
-            <li><img src="c3.jpg" /></li>
-            <li><img src="c3.jpg" /></li>
-            <li><img src="c2.jpg" /></li>
-        </ul>
-    </div>
-    <!--src="c1.jpg" style="width:100%; height:100%"-->
-</div>
-
-</body>
-</html>

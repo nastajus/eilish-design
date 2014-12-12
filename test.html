@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+
+	.a {
+		height: 300px;
+	}
+	.a>.b, .b>ul, li{
+		height: inherit;	/* i can't really explain why inherit works correctly for the comma-separated list above, but i intuited it, and was right */
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+		float: left;	/*i don't like, but looks better...*/
+		background: aqua;
+	}
+	li img{
+		opacity: .5;
+		max-height: 100%;
+		max-width: 100%;
+		vertical-align: middle;
+	}
+</style>
+</head>
+<body>
+	<img src="c1.jpg">
+	<div class="a">
+		<div class="b">
+			<ul>
+				<li>
+					<img src="c2.jpg">
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>

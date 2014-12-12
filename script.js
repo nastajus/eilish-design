@@ -1,7 +1,14 @@
 /**
  * Created by IAN on 20/09/2014.
  */
-/** Continued by IAN on 04/11/2014. */
+
+/**
+    immediately assign id to first element, so it's behind the scenes
+ */
+
+var imgSlider = document.getElementsByClassName("imgSlider");
+var first = imgSlider.childNodes.item(0).childNodes.item(0);
+first.setAttribute("id", "active");
 
 function toggle(id){
     var e = document.getElementById(id);
@@ -13,9 +20,16 @@ function toggle(id){
     }
 }
 
-function assignImg(id){
-    // see the list of all images, assign one
+function arrowClick(direction){
+    //see the list of all images, assign one
     //clearly need to use javascript to apply css dynamically here.
+    //apply a simple tracking id the specific one that's the main one.
+    //find a way to count the number of list items in the unordered list
+    //trigger code to switch active image by toggling display: none vs. display: block.... hmm.
+
+    var parent = document.getElementById()
+
+
 
     var node = document.getElementById(id)
     document.body.id.appendChild()
